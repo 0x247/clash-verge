@@ -28,14 +28,13 @@ env:
 jobs:
   release:
     runs-on: ${{ github.event.inputs.os }}
-    if: startsWith(github.repository, 'zzzgydi')
     steps:
       - name: System Version
         run: |
           echo ${{ github.event.inputs.os }}
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: install Rust stable
         uses: dtolnay/rust-toolchain@stable
@@ -46,7 +45,7 @@ jobs:
           workspaces: src-tauri
 
       - name: Install Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: "16"
           cache: "yarn"
