@@ -60,7 +60,7 @@ function clash() {
   // const downloadURL = `${CLASH_URL_PREFIX}${name}-${CLASH_LATEST_DATE}.${urlExt}`;
   const CLASH_URL_PREFIX = "https://github.com/0x247/clash/releases/download/"
   const CLASH_VERSION = "v1.18.0";
-  const downloadURL = `${CLASH_URL_PREFIX}${CLASH_VERSION}/clash-${name}-${CLASH_VERSION}.${urlExt}`
+  const downloadURL = `${CLASH_URL_PREFIX}${CLASH_VERSION}/${name}-${CLASH_VERSION}.${urlExt}`
   const exeFile = `${name}${isWin ? ".exe" : ""}`;
   const zipFile = `${name}.${urlExt}`;
 
