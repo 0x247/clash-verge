@@ -57,7 +57,7 @@
         "https://github.com/zzzgydi/clash-verge/releases/download/updater/update.json"
       ],
       "dialog": false,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDExNUFBNTBBN0FDNEFBRTUKUldUbHFzUjZDcVZhRVRJM25NS3NkSFlFVElxUkNZMzZ6bHUwRVJjb2F3alJXVzRaeDdSaTA2YWYK"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEVCQ0FEOTc3Q0U5NTZEM0YKUldRL2JaWE9kOW5LNisxZzExRHNQMVFMSDI2amFwVXhzeE14cStzb2h4Q2VaUUNlWmpvdWliYTUK"
     },
     "allowlist": {
       "shell": {
